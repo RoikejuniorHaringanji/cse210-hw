@@ -38,5 +38,5 @@ class Program
         Console.WriteLine($"The sum is: {sum}");
         Console.WriteLine($"The average is: {average}");
         Console.WriteLine($"The largest number is: {max}");
-    }
+    }
 }

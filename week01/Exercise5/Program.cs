@@ -16,7 +16,7 @@ class Program
 
     static void DisplayWelcome()
     {
-        Console.WriteLine("Welcome to the Program!");
+        Console.WriteLine("Welcom to the Program!");
     }
 
     static string PromptUserName()
@@ -39,5 +39,5 @@ class Program
     static void DisplayResult(string userName, int squaredNumber)
     {
         Console.WriteLine($"{userName}, the square of your number is {squaredNumber}");
-    }
+    }
 }

@@ -50,7 +50,7 @@ class Program
         }
 
         // "-" and "+" A and F letters
-        if (letter == "A" && grade < 98)
+        if (letter == "A" && grade < 97)
         {
             sign = "-";
         }
@@ -65,14 +65,13 @@ class Program
         // Performance
         if (grade >= 70)
         {
-            Console.WriteLine("I'm excited to announce that I've passed my class.");
+            Console.WriteLine("Congratulations! You passed the class.");
         }
         else
         {
-            Console.WriteLine("Don't give up! Success is just around the corner.");
+            Console.WriteLine("Keep trying! You'll get it next time.");
         }
     }
 
 
 }
-exercise 2

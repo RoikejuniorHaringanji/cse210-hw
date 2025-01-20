@@ -38,7 +38,7 @@ class Program
                 }
                 else
                 {
-                    Console.WriteLine($"Awesome job! You guessed the number in  {attempts} attempts.");
+                    Console.WriteLine($"Congratulations! You guessed it in {attempts} attempts.");
                 }
             }
 
@@ -47,6 +47,6 @@ class Program
 
         } while (playAgain == "yes");
 
-        Console.WriteLine("Thank you for playing! See you next time!");
-    }
+        Console.WriteLine("Thanks for playing! Goodbye!");
+    }
 }
