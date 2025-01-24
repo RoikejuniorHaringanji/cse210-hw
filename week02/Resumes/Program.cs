@@ -6,17 +6,17 @@ class Program
     {
         Job job1 = new Job
         {
-            _jobTitle = "Cyber Tech",
-            _company = "UPDF",
-            _startYear = 2019,
+            _jobTitle = "wholesaler",
+            _company = "Kiyembe",
+            _startYear = 2020,
             _endYear = 2022
         };
 
         Job job2 = new Job
         {
-            _jobTitle = "Cyber Tech",
-            _company = "Beselfless",
-            _startYear = 2022,
+            _jobTitle = "Software engineer",
+            _company = "Vistoral Technologies",
+            _startYear = 2021,
             _endYear = 2023
         };
 
