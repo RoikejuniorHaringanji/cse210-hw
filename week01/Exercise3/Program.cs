@@ -53,7 +53,7 @@ class Program
                 }
                 else
                 {
-                    Console.WriteLine($"Congratulations!🎉🎉🎉 You guessed it in {attempts} attempts.");
+                    Console.WriteLine($"Congratulations! You guessed it in {attempts} attempts.");
                 }
             }
 
@@ -62,6 +62,6 @@ class Program
 
         } while (playAgain == "yes");
 
-        Console.WriteLine("Thanks for playing! Come back soon! 🎉");
+        Console.WriteLine("Thanks for playing! Come back soon! ");
     }
 }

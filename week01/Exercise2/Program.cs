@@ -65,11 +65,11 @@ partial class Program
         // Performance
         if (grade >= 70)
         {
-Console.WriteLine("Congratulations on passing the class!");
+Console.WriteLine("Congratulations! You passed the class.");
         }
         else
         {
-            Console.WriteLine("Don't give up—keep at it, and you'll succeed next time!");
+            Console.WriteLine("Keep trying! You'll get it next time.");
         }
     }
 
