@@ -1,6 +1,6 @@
 using System;
 
-class Program
+partial class Program
 {
     static void Main(string[] args )
     {
@@ -50,7 +50,7 @@ class Program
         }
 
         // "-" and "+" A and F letters
-        if (letter == "A" && grade < 97)
+        if (letter == "A" && grade < 95)
         {
             sign = "-";
         }
@@ -65,11 +65,11 @@ class Program
         // Performance
         if (grade >= 70)
         {
-            Console.WriteLine("Congratulations! You passed the class.");
+Console.WriteLine("Congratulations on passing the class!");
         }
         else
         {
-            Console.WriteLine("Keep trying! You'll get it next time.");
+            Console.WriteLine("Don't give up—keep at it, and you'll succeed next time!");
         }
     }
 
