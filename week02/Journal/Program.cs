@@ -1,8 +1,6 @@
 using System;
 
-/// <summary>
 /// The main program class for managing the journal application.
-/// </summary>
 class Program
 {
     static void Main(string[] args)
@@ -69,6 +67,6 @@ class Program
             {
                 Console.WriteLine("Invalid option, please try again.");
             }
-        }
-    }
+        }
+    }
 }
